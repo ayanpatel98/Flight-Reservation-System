@@ -1,0 +1,42 @@
+#head
+{
+height:50px;
+width:100%;
+background-color:grey;	
+font-size:20px;
+color:white;
+text-align:right;
+}
+
+#midd
+{
+height:500px;
+width:100%;
+background-color:white;	
+}
+
+#foot
+{
+height:20px;
+width:100%;
+background-color:grey;	
+	
+}
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}

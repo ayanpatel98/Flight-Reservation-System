@@ -1,0 +1,105 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One|Turret+Road&display=swap');
+.leftside, .rightside{
+	height: 100vh;
+	width: 100%;
+}
+
+.leftside{
+	
+	background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(../image/bg-01.jpg);
+	background-position: center;
+ 	background-repeat: no-repeat;
+  	background-size: cover;
+	
+	
+	
+	
+	
+}
+
+.rightside{
+	
+	
+	
+background:linear-gradient(rgba(0,0,0,0.01),rgba(0,0,0,0.01)),url(../image/logsign.jpg);
+	align:center;
+	 
+}
+
+input{
+  border:1px solid #a8a8a8;
+  
+}
+
+input::-webkit-input-placeholder {
+    color: #999;
+}
+input:focus::-webkit-input-placeholder {
+    color: white;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .leftside, .rightside {
+    width: 100%;
+  }
+}
+
+.cntnt {
+	
+	  position:absolute;
+	  width: 400px;
+	  height: 400px;	 
+	  left: 150px;
+	  bottom:250px;
+	  background: white;	
+	  padding: 50px;
+	  border-radius: 10px;
+	  	  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.rightside h1{
+	font-size:60px;
+	position:absolute;
+	left: 180px;
+	color: white;
+	top: 100px;
+	font-family: 'Fredoka One', cursive;
+}
+
+ .leftside h1{
+ 	font-size:60px;
+	position:absolute;
+	left: 50px;
+	color: white;
+	top: 50px;
+	/*font-family: 'Turret Road', cursive;*/
+	font-family: 'Fredoka One', cursive;
+ }
+
+ .leftside h2{
+ 	font-size:60px;
+	position:absolute;
+	left: 200px;
+	color: white;
+	bottom: 50px;
+	font-family: 'Turret Road', cursive;
+	
+ }
+
+.form1 label{
+	font-family: Roboto;
+	color:#ffb703;
+}
+
+.form1 button{
+	margin-top:20px;
+	background-color: #ffb703;
+	border-color: #ffb703;
+}
+.form1 button:hover {
+	background-color: green;
+}
